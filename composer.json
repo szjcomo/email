@@ -14,7 +14,7 @@
     ],
     "autoload":{
         "psr-4":{
-            "szjcomo\\eamil\\":"src/szjcomo/eamil"
-        }        
+            "szjcomo\\email\\":"src/szjcomo/email"
+        }      
     }
 }

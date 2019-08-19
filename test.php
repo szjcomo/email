@@ -26,7 +26,3 @@ Emailer::send('xxxx@qq.com','这是一封测试邮件','这是一封测试邮件
 **/
 $options = ['user'=>'xxx@qq.com','password'=>'xxxx','FromName'=>'xxx信息科技有限公司发来的邮件','addAttachment'=>['test.html'=>'./static/index.html']];
 Emailer::send('xxx@qq.com','这是一封测试邮件','这是一封测试邮件');
-
-
-
-
