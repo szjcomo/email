@@ -1,0 +1,20 @@
+{
+    "name": "szjcomo/email",
+    "description": "send eamil library",
+    "type": "library",
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "como",
+            "email": "814655481@qq.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "szjcomo\\eamil\\":"src/szjcomo/eamil"
+        }        
+    }
+}
